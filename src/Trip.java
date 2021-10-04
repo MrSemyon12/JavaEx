@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+// 2nd exercise
 public class Trip {
     private ArrayList<Flight> flights;
 
@@ -28,7 +28,7 @@ public class Trip {
             for (Flight current: this.flights) {
                 sum += current.getDepartureTime().minutesUntil(current.getArrivalTime());
             }
-            return sum;            
+            return sum;
         }
     }
 

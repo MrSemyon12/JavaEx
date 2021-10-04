@@ -1,4 +1,6 @@
+// 2nd exercise
 public class Flight {
+
     private MyTime departureTime;
     private MyTime arrivalTime;
 

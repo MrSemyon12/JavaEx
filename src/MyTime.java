@@ -1,3 +1,4 @@
+// 2nd exercise
 public class MyTime {
 
     private int hours;
