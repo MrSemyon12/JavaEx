@@ -3,8 +3,8 @@ public class Flight {
     private MyTime arrivalTime;
 
     public Flight(MyTime departureTime, MyTime arrivalTime){
-        this.departureTime = departureTime;
-        this.arrivalTime = arrivalTime;
+            this.departureTime = departureTime;
+            this.arrivalTime = arrivalTime;
     }
 
     public MyTime getDepartureTime(){
