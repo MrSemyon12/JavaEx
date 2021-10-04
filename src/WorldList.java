@@ -5,12 +5,14 @@ public class WorldList {
     private ArrayList<String> myList;
 
     public WorldList() {
-        myList = new ArrayList<>();
+        myList = new ArrayList<String>();
         myList.add("cat");
         myList.add("mouse");
         myList.add("frog");
         myList.add("dog");
         myList.add("dog");
+        myList.add("");
+        myList.add(" ");
     }
 
     public int numWordsOfLength(int len) {
