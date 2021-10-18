@@ -1,3 +1,5 @@
+package Task3;
+
 public class ClimbInfo {
 
     private String peakName;

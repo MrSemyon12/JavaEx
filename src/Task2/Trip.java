@@ -1,3 +1,7 @@
+package Task2;
+
+import Task2.Flight;
+
 import java.util.ArrayList;
 // 2nd exercise
 public class Trip {

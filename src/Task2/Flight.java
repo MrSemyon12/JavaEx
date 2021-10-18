@@ -1,3 +1,5 @@
+package Task2;
+
 // 2nd exercise
 public class Flight {
 

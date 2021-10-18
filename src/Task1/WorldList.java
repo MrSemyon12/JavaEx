@@ -1,3 +1,5 @@
+package Task1;
+
 import java.util.ArrayList;
 // 1st exercise
 public class WorldList {
