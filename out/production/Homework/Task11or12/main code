@@ -1,0 +1,12 @@
+ArrayList<MyThread> threads = new ArrayList<>();
+        Bowl bowl = new Bowl();
+
+        for (int i = 0; i < 3; i++){
+            MyThread thread = new MyThread();
+            thread.connectBowl(bowl);
+            threads.add(thread);
+        }
+
+        for (MyThread current: threads) {
+            current.start();
+        }
