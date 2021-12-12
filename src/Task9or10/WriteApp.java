@@ -4,7 +4,7 @@ import java.io.*;
 
 public class WriteApp {
     public static void main(String[] args) {
-        Person person1 = new Person("Denisenko", "Semyon",2001,"VDK");
+        Person person1 = new Person("Semyon", "Denisenko",2001,"VDK");
         Person person2 = new Person("Vasya", "Ivanov",2005,"KHV");
 
         try {
