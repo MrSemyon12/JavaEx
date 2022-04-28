@@ -1,5 +1,5 @@
 package DecoratorPattern;
 
 public interface Car {
-    public void describeYourself();
+    public String describeYourself();
 }
